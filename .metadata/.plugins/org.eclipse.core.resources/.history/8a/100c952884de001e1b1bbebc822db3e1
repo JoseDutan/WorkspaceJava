@@ -1,0 +1,15 @@
+package com.krakedev;
+
+public class TestRectangulo {
+
+	public static void main(String[] args) {
+		Rectangulo r1 = new Rectangulo();
+		int area;
+		r1.base = 10;
+		r1.altura = 5;
+		area = r1.calcularArea();
+		
+		System.out.println("Area de r1: "+area);
+	}
+
+}

@@ -1,0 +1,46 @@
+package com.krakedev;
+
+public class TestProducto {
+
+	public static void main(String[] args) {
+		Producto productoA = new Producto();
+		Producto productoB = new Producto();
+		Producto productoC = new Producto();
+		
+		productoA.setNombre("Alcohol");
+		productoA.setDescripcion("Para las heridas del corazon :(");;
+		productoA.setPrecio(3.00);
+		productoA.setStockActual(15);
+		
+		productoB.setNombre("Gasas");
+		productoB.setDescripcion("Para proteger las heridas de infecciones");;
+		productoB.setPrecio(2.50);
+		productoB.setStockActual(7);
+		
+		productoC.setNombre("Vendas");
+		productoC.setDescripcion("Para tapar y contener la herida");;
+		productoC.setPrecio(1.00);
+		productoC.setStockActual(3);
+		
+		System.out.println("Nombre: "+productoA.getNombre());
+		System.out.println("Descripcion: "+productoA.getDescripcion());
+		System.out.println("Precio: "+productoA.getPrecio());
+		System.out.println("Stock Actual: "+productoA.getStockActual());
+		
+		System.out.println("------------");
+		
+		System.out.println("Nombre: "+productoB.nombre);
+		System.out.println("Descripcion: "+productoB.descripcion);
+		System.out.println("Precio: "+productoB.precio);
+		System.out.println("Stock Actual: "+productoB.stockActual);
+		
+		System.out.println("------------");
+		
+		System.out.println("Nombre: "+productoC.nombre);
+		System.out.println("Descripcion: "+productoC.descripcion);
+		System.out.println("Precio: "+productoC.precio);
+		System.out.println("Stock Actual: "+productoC.stockActual);
+		
+;	}
+
+}
