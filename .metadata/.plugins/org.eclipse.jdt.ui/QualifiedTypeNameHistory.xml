@@ -3,4 +3,21 @@
     <fullyQualifiedTypeName name="com.krakedev.Calculadora"/>
     <fullyQualifiedTypeName name="clearminds.cuentas.Cuenta"/>
     <fullyQualifiedTypeName name="com.krakedev.demo.Producto"/>
+    <fullyQualifiedTypeName name="com.krakedev.controlflujo.Validador"/>
+    <fullyQualifiedTypeName name="com.cmc.repaso.entidades.Estudiante"/>
+    <fullyQualifiedTypeName name="com.cmc.repaso.entidades.Validacion"/>
+    <fullyQualifiedTypeName name="com.cmc.repaso.entidades.Producto"/>
+    <fullyQualifiedTypeName name="com.cmc.repaso.entidades.Item"/>
+    <fullyQualifiedTypeName name="com.krakedev.composicion.Persona"/>
+    <fullyQualifiedTypeName name="com.krakedev.composicion.Direccion"/>
+    <fullyQualifiedTypeName name="com.krakedev.composicion.AdminProducto"/>
+    <fullyQualifiedTypeName name="com.krakedev.composicion.Producto"/>
+    <fullyQualifiedTypeName name="com.cmc.directorio.entidades.Contacto"/>
+    <fullyQualifiedTypeName name="com.cmc.directorio.entidades.Telefono"/>
+    <fullyQualifiedTypeName name="com.cmc.directorio.entidades.AdminContactos"/>
+    <fullyQualifiedTypeName name="com.clearminds.componentes.Celda"/>
+    <fullyQualifiedTypeName name="com.clearminds.componentes.Producto"/>
+    <fullyQualifiedTypeName name="com.clearminds.maquina.MaquinaDulce"/>
+    <fullyQualifiedTypeName name="com.krakedev.colecciones.Persona"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
