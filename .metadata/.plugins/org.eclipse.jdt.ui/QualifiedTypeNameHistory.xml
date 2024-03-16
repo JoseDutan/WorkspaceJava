@@ -15,9 +15,10 @@
     <fullyQualifiedTypeName name="com.cmc.directorio.entidades.Contacto"/>
     <fullyQualifiedTypeName name="com.cmc.directorio.entidades.Telefono"/>
     <fullyQualifiedTypeName name="com.cmc.directorio.entidades.AdminContactos"/>
-    <fullyQualifiedTypeName name="com.clearminds.componentes.Celda"/>
     <fullyQualifiedTypeName name="com.clearminds.componentes.Producto"/>
     <fullyQualifiedTypeName name="com.clearminds.maquina.MaquinaDulce"/>
     <fullyQualifiedTypeName name="com.krakedev.colecciones.Persona"/>
+    <fullyQualifiedTypeName name="com.clearminds.componentes.Celda"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
