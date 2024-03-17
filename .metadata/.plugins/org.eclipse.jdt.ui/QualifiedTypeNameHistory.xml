@@ -20,5 +20,9 @@
     <fullyQualifiedTypeName name="com.krakedev.colecciones.Persona"/>
     <fullyQualifiedTypeName name="com.clearminds.componentes.Celda"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="krakedev.entidades.Curso"/>
+    <fullyQualifiedTypeName name="krakedev.entidades.Estudiante"/>
+    <fullyQualifiedTypeName name="krakedev.entidades.Materia"/>
+    <fullyQualifiedTypeName name="krakedev.entidades.Nota"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
