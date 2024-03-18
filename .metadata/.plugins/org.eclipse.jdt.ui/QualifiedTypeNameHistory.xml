@@ -24,5 +24,8 @@
     <fullyQualifiedTypeName name="krakedev.entidades.Estudiante"/>
     <fullyQualifiedTypeName name="krakedev.entidades.Materia"/>
     <fullyQualifiedTypeName name="krakedev.entidades.Nota"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
