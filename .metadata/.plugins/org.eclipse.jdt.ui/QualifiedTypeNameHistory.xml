@@ -27,5 +27,13 @@
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="com.entidades.Naipe"/>
+    <fullyQualifiedTypeName name="com.entidades.Carta"/>
+    <fullyQualifiedTypeName name="com.servicios.Juego"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.cmc.evaluacion.Cuota"/>
+    <fullyQualifiedTypeName name="com.cmc.servicios.Banco"/>
+    <fullyQualifiedTypeName name="com.cmc.evaluacion.Cliente"/>
+    <fullyQualifiedTypeName name="com.cmc.evaluacion.Prestamo"/>
+    <fullyQualifiedTypeName name="com.cmc.servicios.CalculadoraAmortizacion"/>
 </qualifiedTypeNameHistroy>
