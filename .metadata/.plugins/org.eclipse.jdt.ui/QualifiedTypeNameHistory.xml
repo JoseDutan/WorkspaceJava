@@ -19,7 +19,6 @@
     <fullyQualifiedTypeName name="com.clearminds.maquina.MaquinaDulce"/>
     <fullyQualifiedTypeName name="com.krakedev.colecciones.Persona"/>
     <fullyQualifiedTypeName name="com.clearminds.componentes.Celda"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="krakedev.entidades.Curso"/>
     <fullyQualifiedTypeName name="krakedev.entidades.Estudiante"/>
     <fullyQualifiedTypeName name="krakedev.entidades.Materia"/>
@@ -30,10 +29,18 @@
     <fullyQualifiedTypeName name="com.entidades.Naipe"/>
     <fullyQualifiedTypeName name="com.entidades.Carta"/>
     <fullyQualifiedTypeName name="com.servicios.Juego"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.Cuota"/>
     <fullyQualifiedTypeName name="com.cmc.servicios.Banco"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.Cliente"/>
     <fullyQualifiedTypeName name="com.cmc.evaluacion.Prestamo"/>
     <fullyQualifiedTypeName name="com.cmc.servicios.CalculadoraAmortizacion"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicio.entidades.Alarma"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicio.logica.AdminAlarmas"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.DiasSemana"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicio.utils.DiasSemana"/>
+    <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicio.utils.Util"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
 </qualifiedTypeNameHistroy>
