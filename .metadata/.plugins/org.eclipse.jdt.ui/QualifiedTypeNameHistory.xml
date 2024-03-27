@@ -24,8 +24,6 @@
     <fullyQualifiedTypeName name="krakedev.entidades.Materia"/>
     <fullyQualifiedTypeName name="krakedev.entidades.Nota"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="com.entidades.Naipe"/>
     <fullyQualifiedTypeName name="com.entidades.Carta"/>
     <fullyQualifiedTypeName name="com.servicios.Juego"/>
@@ -43,4 +41,14 @@
     <fullyQualifiedTypeName name="com.krakedev.estaticos.ejercicio.utils.Util"/>
     <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
     <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.sql.Time"/>
+    <fullyQualifiedTypeName name="com.krakedev.persistencia.entidades.Personas"/>
+    <fullyQualifiedTypeName name="com.krakedev.persistencia.utils.ConexionBDD"/>
+    <fullyQualifiedTypeName name="com.krakedev.persistencia.servicios.AdminPersonas"/>
+    <fullyQualifiedTypeName name="com.krakedev.persistencia.entidades.Prestamo"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="com.krakedev.persistencia.utils.Convertidor"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
