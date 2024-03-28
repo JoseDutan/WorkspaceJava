@@ -1,0 +1,300 @@
+27-Mar-2024 23:24:29.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.20
+27-Mar-2024 23:24:29.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 19 2024 12:49:58 UTC
+27-Mar-2024 23:24:29.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.20.0
+27-Mar-2024 23:24:29.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Mac OS X
+27-Mar-2024 23:24:29.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      14.4.1
+27-Mar-2024 23:24:29.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      aarch64
+27-Mar-2024 23:24:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+27-Mar-2024 23:24:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21.0.2+13-LTS-58
+27-Mar-2024 23:24:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+27-Mar-2024 23:24:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:24:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/conf/logging.properties
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:24:29.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/temp
+27-Mar-2024 23:24:29.672 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/josedutan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Mar-2024 23:24:29.809 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+27-Mar-2024 23:24:29.819 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Fallo al iniciar el componente [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Falló la inicialización del manejador de protocolo
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1017)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:708)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:194)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1307)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1320)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:624)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1014)
+		... 11 more
+27-Mar-2024 23:24:29.819 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [252] milliseconds
+27-Mar-2024 23:24:29.836 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+27-Mar-2024 23:24:29.836 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.20]
+27-Mar-2024 23:24:29.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/RETO52] de la aplicación web
+27-Mar-2024 23:24:29.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/RETO52] has finished in [143] ms
+27-Mar-2024 23:24:29.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/docs] de la aplicación web
+27-Mar-2024 23:24:29.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/docs] has finished in [13] ms
+27-Mar-2024 23:24:29.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/manager] de la aplicación web
+27-Mar-2024 23:24:30.016 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/manager] has finished in [18] ms
+27-Mar-2024 23:24:30.016 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/examples] de la aplicación web
+27-Mar-2024 23:24:30.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/examples] has finished in [116] ms
+27-Mar-2024 23:24:30.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ROOT] de la aplicación web
+27-Mar-2024 23:24:30.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ROOT] has finished in [9] ms
+27-Mar-2024 23:24:30.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/krakedev] de la aplicación web
+27-Mar-2024 23:24:30.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/krakedev] has finished in [8] ms
+27-Mar-2024 23:24:30.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/host-manager] de la aplicación web
+27-Mar-2024 23:24:30.158 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/host-manager] has finished in [9] ms
+27-Mar-2024 23:24:30.160 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [340] milliseconds
+27-Mar-2024 23:24:30.163 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:577)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:847)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+27-Mar-2024 23:24:30.163 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:24:30.163 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+27-Mar-2024 23:24:30.173 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:24:30.174 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:25:04.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.20
+27-Mar-2024 23:25:04.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 19 2024 12:49:58 UTC
+27-Mar-2024 23:25:04.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.20.0
+27-Mar-2024 23:25:04.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Mac OS X
+27-Mar-2024 23:25:04.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      14.4.1
+27-Mar-2024 23:25:04.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      aarch64
+27-Mar-2024 23:25:04.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+27-Mar-2024 23:25:04.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21.0.2+13-LTS-58
+27-Mar-2024 23:25:04.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+27-Mar-2024 23:25:04.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:25:04.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/conf/logging.properties
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:25:04.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/temp
+27-Mar-2024 23:25:04.376 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/josedutan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Mar-2024 23:25:04.513 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+27-Mar-2024 23:25:04.529 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [247] milliseconds
+27-Mar-2024 23:25:04.545 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+27-Mar-2024 23:25:04.545 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.20]
+27-Mar-2024 23:25:04.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/RETO52] de la aplicación web
+27-Mar-2024 23:25:04.686 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/RETO52] has finished in [134] ms
+27-Mar-2024 23:25:04.686 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/docs] de la aplicación web
+27-Mar-2024 23:25:04.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/docs] has finished in [12] ms
+27-Mar-2024 23:25:04.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/manager] de la aplicación web
+27-Mar-2024 23:25:04.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/manager] has finished in [19] ms
+27-Mar-2024 23:25:04.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/examples] de la aplicación web
+27-Mar-2024 23:25:04.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/examples] has finished in [101] ms
+27-Mar-2024 23:25:04.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ROOT] de la aplicación web
+27-Mar-2024 23:25:04.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ROOT] has finished in [8] ms
+27-Mar-2024 23:25:04.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/krakedev] de la aplicación web
+27-Mar-2024 23:25:04.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/krakedev] has finished in [7] ms
+27-Mar-2024 23:25:04.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/host-manager] de la aplicación web
+27-Mar-2024 23:25:04.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/host-manager] has finished in [8] ms
+27-Mar-2024 23:25:04.843 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:25:04.849 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [320] milliseconds
+27-Mar-2024 23:26:34.928 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/Users/josedutan/Documents/Programacion%20Nivelacion/MODULO%202/WorkspaceJava/apache-tomcat-10.1.20/conf/tomcat-users.xml]
+27-Mar-2024 23:26:55.596 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+27-Mar-2024 23:26:55.596 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:26:55.598 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+27-Mar-2024 23:26:55.610 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:26:55.623 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:27:00.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.20
+27-Mar-2024 23:27:00.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 19 2024 12:49:58 UTC
+27-Mar-2024 23:27:00.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.20.0
+27-Mar-2024 23:27:00.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Mac OS X
+27-Mar-2024 23:27:00.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      14.4.1
+27-Mar-2024 23:27:00.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      aarch64
+27-Mar-2024 23:27:00.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+27-Mar-2024 23:27:00.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21.0.2+13-LTS-58
+27-Mar-2024 23:27:00.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+27-Mar-2024 23:27:00.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:27:00.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/conf/logging.properties
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:27:00.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/temp
+27-Mar-2024 23:27:00.759 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/josedutan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Mar-2024 23:27:00.894 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+27-Mar-2024 23:27:00.907 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [241] milliseconds
+27-Mar-2024 23:27:00.926 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+27-Mar-2024 23:27:00.926 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.20]
+27-Mar-2024 23:27:00.930 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/RETO52] de la aplicación web
+27-Mar-2024 23:27:01.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/RETO52] has finished in [134] ms
+27-Mar-2024 23:27:01.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/docs] de la aplicación web
+27-Mar-2024 23:27:01.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/docs] has finished in [12] ms
+27-Mar-2024 23:27:01.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/manager] de la aplicación web
+27-Mar-2024 23:27:01.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/manager] has finished in [17] ms
+27-Mar-2024 23:27:01.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/examples] de la aplicación web
+27-Mar-2024 23:27:01.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/examples] has finished in [98] ms
+27-Mar-2024 23:27:01.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ROOT] de la aplicación web
+27-Mar-2024 23:27:01.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ROOT] has finished in [7] ms
+27-Mar-2024 23:27:01.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/krakedev] de la aplicación web
+27-Mar-2024 23:27:01.207 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/krakedev] has finished in [7] ms
+27-Mar-2024 23:27:01.207 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/host-manager] de la aplicación web
+27-Mar-2024 23:27:01.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/host-manager] has finished in [8] ms
+27-Mar-2024 23:27:01.217 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:27:01.223 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [314] milliseconds
+27-Mar-2024 23:30:01.397 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ejemploweb.war] de la aplicación web
+27-Mar-2024 23:30:01.425 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ejemploweb.war] has finished in [28] ms
+27-Mar-2024 23:30:05.952 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+27-Mar-2024 23:30:05.953 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:30:05.955 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+27-Mar-2024 23:30:05.966 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:30:05.980 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:30:23.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.20
+27-Mar-2024 23:30:23.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 19 2024 12:49:58 UTC
+27-Mar-2024 23:30:23.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.20.0
+27-Mar-2024 23:30:23.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Mac OS X
+27-Mar-2024 23:30:23.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      14.4.1
+27-Mar-2024 23:30:23.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      aarch64
+27-Mar-2024 23:30:23.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+27-Mar-2024 23:30:23.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21.0.2+13-LTS-58
+27-Mar-2024 23:30:23.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+27-Mar-2024 23:30:23.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:30:23.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/conf/logging.properties
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:30:23.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/temp
+27-Mar-2024 23:30:23.915 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/josedutan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Mar-2024 23:30:24.056 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+27-Mar-2024 23:30:24.070 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [248] milliseconds
+27-Mar-2024 23:30:24.088 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+27-Mar-2024 23:30:24.088 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.20]
+27-Mar-2024 23:30:24.096 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ejemploweb.war] de la aplicación web
+27-Mar-2024 23:30:24.228 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ejemploweb.war] has finished in [131] ms
+27-Mar-2024 23:30:24.229 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/RETO52] de la aplicación web
+27-Mar-2024 23:30:24.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/RETO52] has finished in [8] ms
+27-Mar-2024 23:30:24.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/docs] de la aplicación web
+27-Mar-2024 23:30:24.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/docs] has finished in [12] ms
+27-Mar-2024 23:30:24.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/manager] de la aplicación web
+27-Mar-2024 23:30:24.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/manager] has finished in [15] ms
+27-Mar-2024 23:30:24.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/examples] de la aplicación web
+27-Mar-2024 23:30:24.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/examples] has finished in [99] ms
+27-Mar-2024 23:30:24.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ROOT] de la aplicación web
+27-Mar-2024 23:30:24.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ROOT] has finished in [7] ms
+27-Mar-2024 23:30:24.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/krakedev] de la aplicación web
+27-Mar-2024 23:30:24.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/krakedev] has finished in [7] ms
+27-Mar-2024 23:30:24.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/host-manager] de la aplicación web
+27-Mar-2024 23:30:24.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/host-manager] has finished in [8] ms
+27-Mar-2024 23:30:24.389 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:30:24.395 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [324] milliseconds
+27-Mar-2024 23:33:34.580 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/ejemploweb]
+27-Mar-2024 23:33:34.612 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ejemploweb.war] de la aplicación web
+27-Mar-2024 23:33:34.637 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ejemploweb.war] has finished in [25] ms
+27-Mar-2024 23:33:46.851 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+27-Mar-2024 23:33:46.852 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:33:46.854 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+27-Mar-2024 23:33:46.863 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:33:46.866 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:33:55.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.20
+27-Mar-2024 23:33:55.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Mar 19 2024 12:49:58 UTC
+27-Mar-2024 23:33:55.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.20.0
+27-Mar-2024 23:33:55.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Mac OS X
+27-Mar-2024 23:33:55.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      14.4.1
+27-Mar-2024 23:33:55.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      aarch64
+27-Mar-2024 23:33:55.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+27-Mar-2024 23:33:55.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       21.0.2+13-LTS-58
+27-Mar-2024 23:33:55.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+27-Mar-2024 23:33:55.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:33:55.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:33:55.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/conf/logging.properties
+27-Mar-2024 23:33:55.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2024 23:33:55.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2024 23:33:55.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2024 23:33:55.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Mar-2024 23:33:55.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Mar-2024 23:33:55.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+27-Mar-2024 23:33:55.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+27-Mar-2024 23:33:55.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Mar-2024 23:33:55.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Mar-2024 23:33:55.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:33:55.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20
+27-Mar-2024 23:33:55.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/temp
+27-Mar-2024 23:33:55.153 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/josedutan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-Mar-2024 23:33:55.292 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+27-Mar-2024 23:33:55.307 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [252] milliseconds
+27-Mar-2024 23:33:55.324 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+27-Mar-2024 23:33:55.324 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.20]
+27-Mar-2024 23:33:55.332 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ejemploweb.war] de la aplicación web
+27-Mar-2024 23:33:55.479 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ejemploweb.war] has finished in [145] ms
+27-Mar-2024 23:33:55.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/RETO52] de la aplicación web
+27-Mar-2024 23:33:55.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/RETO52] has finished in [9] ms
+27-Mar-2024 23:33:55.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/docs] de la aplicación web
+27-Mar-2024 23:33:55.501 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/docs] has finished in [12] ms
+27-Mar-2024 23:33:55.501 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/manager] de la aplicación web
+27-Mar-2024 23:33:55.520 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/manager] has finished in [19] ms
+27-Mar-2024 23:33:55.520 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/examples] de la aplicación web
+27-Mar-2024 23:33:55.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/examples] has finished in [108] ms
+27-Mar-2024 23:33:55.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ROOT] de la aplicación web
+27-Mar-2024 23:33:55.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/ROOT] has finished in [8] ms
+27-Mar-2024 23:33:55.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/krakedev] de la aplicación web
+27-Mar-2024 23:33:55.644 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/krakedev] has finished in [8] ms
+27-Mar-2024 23:33:55.644 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/host-manager] de la aplicación web
+27-Mar-2024 23:33:55.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/josedutan/Documents/Programacion Nivelacion/MODULO 2/WorkspaceJava/apache-tomcat-10.1.20/webapps/host-manager] has finished in [9] ms
+27-Mar-2024 23:33:55.655 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Mar-2024 23:33:55.661 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [354] milliseconds
