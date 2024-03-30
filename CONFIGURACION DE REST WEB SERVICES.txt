@@ -1,0 +1,45 @@
+Todo lo que va dentro de el <servlet>, hasta el </servlet-mapping>, es para la configuración del path, esto va en el archivo web.xml que esta en la carpeta src.
+
+	<servlet>
+   		<servlet-name>MiServlet</servlet-name>
+   		<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+   		<init-param>
+   			<param-name>jersey.config.server.provider.packages</param-name>
+   			<param-value>com.krakedev.servicios</param-value>
+   		</init-param>
+  	</servlet>
+   	<servlet-mapping>
+   		<servlet-name>MiServlet</servlet-name>
+   		<url-pattern>/rws/*</url-pattern>
+   	</servlet-mapping>
+	
+Todo lo que es de dependences va en el archivo por.xml
+	
+	<dependency>
+		<groupId>javax.ws.rs</groupId>
+		<artifactId>javax.ws.rs-api</artifactId>
+		<version>2.1.1</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.glassfish.jersey.containers</groupId>
+		<artifactId>jersey-container-servlet</artifactId>
+		<version>2.29.1</version>
+	</dependency>
+	<dependency>
+		<groupId>org.glassfish.jersey.inject</groupId>
+		<artifactId>jersey-hk2</artifactId>
+		<version>2.29.1</version>
+	</dependency>
+
+Tambien va dentro de dependences en el archivo por.xml esto es la configuración de dependenciasJSON
+	<dependency>
+		<groupId>org.glassfish.jersey.media</groupId>
+		<artifactId>jersey-media-json-jackson</artifactId>
+		<version>2.25</version>
+	</dependency>
+	<dependency>
+		<groupId>org.glassfish.jersey.bundles.repackaged</groupId>
+		<artifactId>jersey-guava</artifactId>
+		<version>2.6</version>
+	</dependency>
