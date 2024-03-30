@@ -9,6 +9,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 import com.krakedev.entidades.Cliente;
+import com.krakedev.persistencia.ClientesBDD;
 
 @Path("customers")
 public class ServicioClientes {
@@ -33,6 +34,8 @@ public class ServicioClientes {
 	@Consumes(MediaType.APPLICATION_JSON)
 	public void insertar(Cliente cliente) {
 		System.out.println(">>>>>>>>"+cliente);
+		ClientesBDD cli = new ClientesBDD();
+		cli.insertar(cliente);
 	}
 	
 	/*@Path("act")
