@@ -51,4 +51,5 @@
     <fullyQualifiedTypeName name="java.math.BigDecimal"/>
     <fullyQualifiedTypeName name="com.krakedev.persistencia.utils.Convertidor"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.Path"/>
 </qualifiedTypeNameHistroy>

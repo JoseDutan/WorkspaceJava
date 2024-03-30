@@ -19,3 +19,5 @@
 0:0:0:0:0:0:0:1 - - [28/Mar/2024:09:39:52 -0500] "GET /ejemploweb/rws/clientes/metodo1 HTTP/1.1" 404 730
 0:0:0:0:0:0:0:1 - - [28/Mar/2024:09:39:55 -0500] "GET /ejemploweb/rws/clientes/metodo1 HTTP/1.1" 404 730
 0:0:0:0:0:0:0:1 - - [28/Mar/2024:09:40:09 -0500] "GET /ejemploweb/rest/customers/m1 HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [28/Mar/2024:09:56:22 -0500] "GET /ejemploweb/rest/customers/m1 HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [28/Mar/2024:09:57:18 -0500] "GET /ejemploweb/rest/customers/m1 HTTP/1.1" 200 28
