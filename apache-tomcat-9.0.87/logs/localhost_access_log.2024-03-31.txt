@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:10:29:34 -0500] "GET /ejemploweb/rest/customers/all HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:10:38:14 -0500] "GET /ejemploweb/rest/customers/all HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:10:48:23 -0500] "GET /ejemploweb/rest/customers/all HTTP/1.1" 200 172
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:10:53:40 -0500] "GET /ejemploweb/rest/customers/all HTTP/1.1" 200 172
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:11:07:08 -0500] "GET /ejemploweb/rest/customers/buscarPorCedula/0302578166 HTTP/1.1" 200 55
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:11:11:11 -0500] "GET /ejemploweb/rest/customers/buscarPorCedula/0302578166 HTTP/1.1" 200 55
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:11:12:08 -0500] "GET /ejemploweb/rest/customers/buscarPorCedula/0302578167 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:11:26:27 -0500] "GET /ejemploweb/rest/customers/buscarPorNH/1 HTTP/1.1" 200 56
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:11:26:53 -0500] "GET /ejemploweb/rest/customers/buscarPorNH/3 HTTP/1.1" 200 56
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:11:26:59 -0500] "GET /ejemploweb/rest/customers/buscarPorNH/8 HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:11:41:31 -0500] "GET /ejemploweb/rest/customers/buscarPorNH/1 HTTP/1.1" 200 172
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:11:41:41 -0500] "GET /ejemploweb/rest/customers/buscarPorNH/3 HTTP/1.1" 200 116
+0:0:0:0:0:0:0:1 - - [31/Mar/2024:11:42:12 -0500] "GET /ejemploweb/rest/customers/buscarPorNH/1 HTTP/1.1" 200 172

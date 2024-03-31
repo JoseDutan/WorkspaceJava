@@ -71,3 +71,4 @@
 0:0:0:0:0:0:0:1 - - [30/Mar/2024:16:03:43 -0500] "POST /ejemploweb/rest/customers/insertar HTTP/1.1" 204 -
 0:0:0:0:0:0:0:1 - - [30/Mar/2024:19:53:58 -0500] "POST /ejemploweb/rest/customers/insertar HTTP/1.1" 500 719
 0:0:0:0:0:0:0:1 - - [30/Mar/2024:19:55:44 -0500] "POST /ejemploweb/rest/customers/insertar HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [30/Mar/2024:20:04:10 -0500] "PUT /ejemploweb/rest/customers/act HTTP/1.1" 200 -
