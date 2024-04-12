@@ -1,5 +1,5 @@
 ***************************************
-Cambios en el server.xml
+Cambios en el server.xml, esta ubicado en el apache/conf va en el apartado de <GlobalNamingResources>
 	<Resource name="jdbc/PgDB" 
       global="jdbc/PgDB" 
       auth="Container" 
@@ -15,7 +15,7 @@ Cambios en el server.xml
       maxWait="10000"/>
 
 *****************************************
-Cambios en el context.xml
+Cambios en el context.xml, esta ubicado en el apache/conf va en el apartado de <Context>
 
 <ResourceLink name="jdbc/PgDB"
                 global="jdbc/PgDB"

@@ -5,15 +5,15 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.MediaType;
 
-import com.krakedev.inventario.entidades.Producto;
+import com.krakedev.inventario.entidades.Categoria;
 @Path("categorias")
 public class ServiciosCategoria {
 	
 	@Path("insertar")
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
-	public void insertar (Producto producto) {
-		System.out.println("Ingresar Producto >>>>>>>> "+producto);
+	public void insertar (Categoria categoria) {
+		System.out.println("Ingresar Categoria >>>>>>>> "+categoria);
 	}
 
 }
